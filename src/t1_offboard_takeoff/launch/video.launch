@@ -1,0 +1,10 @@
+<launch>
+
+  
+  <node pkg="t1_offboard_takeoff" type="cv_num_node" name="cv_num_node" output="screen" respawn="true"/>
+  <!-- <node pkg="t1_offboard_takeoff" type="cv_image1_node" name="cv_image1_node" output="screen" respawn="true"/> -->
+
+ 
+  
+
+</launch>

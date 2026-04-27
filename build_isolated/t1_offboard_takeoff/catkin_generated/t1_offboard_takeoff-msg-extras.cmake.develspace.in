@@ -1,0 +1,2 @@
+set(t1_offboard_takeoff_MESSAGE_FILES "/home/seeker/ofb_ws/src/t1_offboard_takeoff/msg/Mydata.msg")
+set(t1_offboard_takeoff_SERVICE_FILES "")

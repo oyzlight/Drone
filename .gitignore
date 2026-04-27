@@ -1,0 +1,14 @@
+# 创建 .gitignore 文件，内容如下：
+build/
+devel/
+.log/
+*.pyc
+__pycache__/
+.ros/
+*.so
+*.a
+*.o
+*.cmake
+Makefile
+CTestTestfile.cmake
+CMakeCache.txt

@@ -1,0 +1,13 @@
+<launch>
+    <include file="$(find mavros)/launch/px4.launch" />
+     <include file="/home/seeker/seeker_ws/src/livox_ros_driver2/launch_ROS1/msg_MID360.launch" />
+    <include file="/home/seeker/seeker_ws/src/FAST_LIO/launch/mapping_mid360.launch" />
+    
+    <node pkg = "t1_offboard_takeoff" type = "livox_to_mavos" name = "livox_to_mavros" required = "true" output = "screen" />
+    <node pkg = "t1_offboard_takeoff" type = "serial_node" name = "serial_node" required = "true" output = "screen" />
+    <node pkg = "t1_offboard_takeoff" type = "offboard" name = "offboard" required = "true" output = "screen" />
+    <node pkg = "t1_offboard_takeoff" type = "serial_stm32_node" name = "serial_stm32_node" required = "true" output = "screen" />
+ 
+   
+</launch>
+

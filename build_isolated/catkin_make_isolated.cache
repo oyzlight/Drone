@@ -1,0 +1,2 @@
+t1_offboard_takeoff
+-DCMAKE_BUILD_TYPE=RelWithDebInfo -G Unix Makefiles -DCATKIN_DEVEL_PREFIX=/home/seeker/ofb_ws/devel_isolated -DCMAKE_INSTALL_PREFIX=/home/seeker/ofb_ws/install_isolated
