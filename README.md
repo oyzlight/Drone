@@ -30,7 +30,7 @@
 
 ### 2. 视觉识别节点 (`cv_num_node.cpp`)
 
-- **AI视觉节点**：负责目标检测。
+- **视觉节点**：负责目标检测。
 - **主要功能**：
   - 使用 `OpenCV` 和 `ONNX Runtime` 加载 YOLO 格式的模型。
   - 实时读取 V4L2 摄像头数据，并根据标定参数（Camera Matrix 和 DistCoeffs）进行图像去畸变（Rectification）。
