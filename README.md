@@ -8,6 +8,18 @@
 
 系统实现了在无GPS环境下的自主定位、动态路径规划（避开禁飞区）、全覆盖巡航、基于ONNX的目标检测识别分类以及多设备间的串口通信协调。
 
+## 小黑系统插画
+
+已生成 4 张 16:9 小黑风格正文配图，用于解释项目中的无 GPS 定位、BFS 巡航、视觉防抖计数与串口协同逻辑。图片位于 [`assets/drone-xiaohei-illustrations/`](assets/drone-xiaohei-illustrations/)。
+
+| 无 GPS 定位 | BFS 巡航返航 |
+| --- | --- |
+| ![](assets/drone-xiaohei-illustrations/01-gps-free-localization.png) | ![](assets/drone-xiaohei-illustrations/02-bfs-coverage-return.png) |
+
+| 视觉防抖计数 | 串口协同 |
+| --- | --- |
+| ![](assets/drone-xiaohei-illustrations/03-vision-undistort-counting.png) | ![](assets/drone-xiaohei-illustrations/04-serial-coordination-led.png) |
+
 ## 🌟 系统核心功能
 
 1. **自主定位与控制**：接入Livox雷达的SLAM里程计数据，结合PX4飞控实现精准的 `OFFBOARD` 模式航点飞行与自动降落。
