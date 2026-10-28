@@ -10,7 +10,9 @@
 
 ## 往年题目试飞
 
-[▶ 直接播放试飞视频](https://oyzlight.github.io/Drone/)（[下载原视频](视频/1.mp4)）
+https://github.com/user-attachments/assets/60c127ed-109a-450c-9440-72dca61a6154
+
+[原视频文件（1.mp4）](视频/1.mp4)
 
 ## 小黑系统插画
 
