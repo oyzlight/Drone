@@ -8,6 +8,10 @@
 
 系统实现了在无GPS环境下的自主定位、动态路径规划（避开禁飞区）、全覆盖巡航、基于ONNX的目标检测识别分类以及多设备间的串口通信协调。
 
+## 往年题目试飞
+
+[观看试飞视频（1.mp4）](视频/1.mp4)
+
 ## 小黑系统插画
 
 已生成 4 张 16:9 小黑风格正文配图，用于解释项目中的无 GPS 定位、BFS 巡航、视觉防抖计数与串口协同逻辑。图片位于 [`assets/drone-xiaohei-illustrations/`](assets/drone-xiaohei-illustrations/)。
